@@ -78,3 +78,6 @@ Copy the public key to your clipboard using the following command:
 Go to your GitHub account settings, add the copied text as an SSH key with a new name. You will be prompted for a password before making this change.
 
 By following these steps, you can effortlessly manage multiple git accounts and switch between them without any issues.
+
+## Resources
+[GitHub's SSH key generator guide](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
