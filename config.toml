@@ -9,6 +9,8 @@ Paginate = 10
 googleAnalytics = ""
 enableRobotsTXT = true
 
+disqusShortname = "uday-1"
+
 [Menus]
   main = [
       {Name = "Github", URL = "https://github.com/udaykadaboina"},

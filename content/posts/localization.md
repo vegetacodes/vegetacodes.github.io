@@ -1,6 +1,6 @@
 ---
 title: "Simplifying Globalization: The Power of Standalone Localization Repositories"
-date: 2020-10-21T16:14:59-04:00
+date: 2021-02-21T16:14:59-04:00
 draft: false
 ---
 
@@ -56,6 +56,6 @@ git commit -m "Syncing locale updates"
 By separating your localization files from the main repository, you unlock greater flexibility for your team members to update these files with minimal merge conflicts. It also empowers external contributors to work independently, even outside your release cycle. Simplifying the globalization process ultimately leads to a more efficient and effective localized user experience.
 
 ## Resources
-[Rails i18n guide](https://guides.rubyonrails.org/i18n.html)
-[SpringBoot's Internationalization guide](https://docs.spring.io/spring-boot/docs/2.1.18.RELEASE/reference/html/boot-features-internationalization.html)
+- [Rails i18n guide](https://guides.rubyonrails.org/i18n.html)
+- [SpringBoot's Internationalization guide](https://docs.spring.io/spring-boot/docs/2.1.18.RELEASE/reference/html/boot-features-internationalization.html)
 
