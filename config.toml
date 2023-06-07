@@ -15,7 +15,8 @@ disqusShortname = "uday-1"
   main = [
       {Name = "Github", URL = "https://github.com/udaykadaboina"},
       {Name = "LinkedIn", URL = "https://www.linkedin.com/in/udaybhaskark/"},
-      {Name = "StackOverflow", URL = "https://stackoverflow.com/users/981616/uday"}
+      {Name = "StackOverflow", URL = "https://stackoverflow.com/users/981616/uday"},
+      {Name = "About", URL = "/about"}
   ]
 
 [sitemap]
@@ -33,7 +34,3 @@ disqusShortname = "uday-1"
   # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-black"
   recent_posts_number = 3
-
-[[params.ananke_socials]]
-name = "twitter"
-url = "https://twitter.com/udaycodes"
