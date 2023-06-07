@@ -3,9 +3,14 @@ title: "Simplifying Globalization: The Power of Standalone Localization Reposito
 date: 2021-02-21T16:14:59-04:00
 draft: false
 ---
-
-## Introduction:
 In today's globalized world, catering to a diverse audience is essential for businesses. To effectively serve localized content to users across the globe, it's crucial to streamline the localization process. This blog post explores a practical solution by pulling out localization files from your project and placing them in a standalone repository. We'll focus on using Rails project conventions for simplicity reasons.
+
+## Motivation
+Leading a significant feature in a shared code base often leads to the creation of a Long Standing Changelist (LSC). In such cases, translation files tend to be rapidly evolving due to other team members working on smaller fixes and features. This can become a major headache when merging changes with the upstream codebase.
+
+To overcome this challenge and enable external vendors to access localization files for iterative improvements without touching our application's codebase, we have implemented a solution using **Git Submodules**. By referencing the localization files through submodules, we ensure seamless integration while allowing independent refinement of the files.
+
+This approach helps us maintain a clean and efficient workflow, mitigating the complexities associated with merging changes and facilitating collaborative localization enhancements with external vendors.
 
 ## Streamlining Localization with Standalone Repositories
 
@@ -56,6 +61,7 @@ git commit -m "Syncing locale updates"
 By separating your localization files from the main repository, you unlock greater flexibility for your team members to update these files with minimal merge conflicts. It also empowers external contributors to work independently, even outside your release cycle. Simplifying the globalization process ultimately leads to a more efficient and effective localized user experience.
 
 ## Resources
+- [Git Submodules](https://git-scm.com/docs/git-submodule)
 - [Rails i18n guide](https://guides.rubyonrails.org/i18n.html)
 - [SpringBoot's Internationalization guide](https://docs.spring.io/spring-boot/docs/2.1.18.RELEASE/reference/html/boot-features-internationalization.html)
 
