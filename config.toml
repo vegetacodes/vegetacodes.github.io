@@ -6,7 +6,7 @@ theme = 'hyde'
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 Paginate = 10
-googleAnalytics = ""
+googleAnalytics = "G-DLYZJ9VDDD"
 enableRobotsTXT = true
 
 disqusShortname = "uday-1"
