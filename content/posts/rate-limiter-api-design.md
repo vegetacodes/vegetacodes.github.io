@@ -1,7 +1,7 @@
 ---
 title: "Rate Limiter in API Design"
 date: 2023-07-11T19:19:18-04:00
-draft: true
+draft: false
 ---
 
 A rate limiter is a mechanism used to control the rate at which certain operations or requests are allowed to be processed by a system or an API. It helps prevent abuse, protect system resources, and ensure fair usage by limiting the number of requests or actions that can be performed within a specific timeframe. And Richard Schneeman has put it nicely in his [tweet](https://twitter.com/schneems/status/1138899094137651200?s=20) where he said:
