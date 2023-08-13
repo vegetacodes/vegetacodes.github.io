@@ -5,13 +5,12 @@ draft: false
 showthedate: false
 showthedisqus: false
 ---
+I am an Engineering Manager at [AutoGrid](https://auto-grid.com) (Schneider Electric), leading a team of developers dedicated to transforming the Energy Sector through AI solutions. My specialization lies in the design and development of applications, APIs, and microservices in distributed systems architecture.
 
-I'm a Senior Software Engineer and Lead Developer at MathWorks Inc., specializing in crafting web apps, RESTful APIs and Consumers using Ruby, Python, Java & Go. I excel in Service-Oriented Architecture and designing systems for seamless integration with platforms like Adobe Experience Manager, SalesForce and microservices.
+With more than a decade of experience, I have successfully overseen projects for MathWorks' [Training e-commerce](https://www.mathworks.com/learn/training/classroom-courses.html?q=&page=1), [Bug Reports](https://www.mathworks.com/support/bugreports/?s_tid=hc_resources), and [Careers](https://www.mathworks.com/company/jobs/opportunities.html?s_tid=hp_ff_a_careers) applications, contributing significantly to an annual revenue of $65 million. My reputation stems from my adeptness in crafting scalable systems utilizing a Service-Oriented Architecture, as well as my role in streamlining the localization process for international users.
 
-With over 10 years of experience, I've led successful projects for MathWorks' [Training e-commerce](https://www.mathworks.com/learn/training/classroom-courses.html?q=&page=1), [Bug Reports](https://www.mathworks.com/support/bugreports/?s_tid=hc_resources) and [Careers](https://www.mathworks.com/company/jobs/opportunities.html?s_tid=hp_ff_a_careers) applications, contributing to $65 million in annual revenue. I'm known for architecting scalable systems and streamlining the localization process for international users.
+My expertise encompasses SOLR-based backend search, optimization of data storage using Memcached, and the creation of data purging systems to ensure compliance with data privacy regulations like GDPR. I possess technical proficiency in a wide range of languages including Ruby, Python, C#, Java, Go, and JavaScript, along with various frameworks and tools. Additionally, I actively engage in contributing to open-source projects.
 
-I have expertise in SOLR-based backend search, optimizing data storage with Memcached, and designing data purging systems to comply with data privacy laws like GDPR. My technical skills span Ruby, Python, C#, Java, Go, JavaScript and various frameworks and tools, and I actively contribute to open-source projects.
+My enthusiasm centers around delivering exceptional outcomes and effecting tangible change in the realm of software development. I am eager to collaborate and bring forth something truly remarkable!
 
-I'm passionate about delivering exceptional results and making a real impact in the software development world. Let's collaborate and create something amazing!
-
-When I'm not working, you can find me kayaking, rowing on [Charles River](https://en.wikipedia.org/wiki/Charles_River).
+Outside of work, you can find me kayaking and rowing along the [Charles River](https://en.wikipedia.org/wiki/Charles_River).
