@@ -39,9 +39,6 @@ Once Ollama is installed, fetch and run the DeepSeek-R1 model using(I used the 1
 ollama run deepseek-r1:1.5b
 ```
 
-This command downloads the necessary files to run the model locally.
-
-
 This command downloads the necessary files, initializes the model and starts listening for API requests.
 
 ## Step 4: Test with a cURL Request
