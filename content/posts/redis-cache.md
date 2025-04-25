@@ -6,7 +6,7 @@ draft: false
 
 ## Introduction
 
-In one of our high-traffic deployments, which sits at the intersection of web and AI use cases, we had a Redis cache pod shared between the web application and AI background workers. While this setup wasn’t ideal, it had worked well—until one day, we were paged: Redis was down. When a Redis pod crashes or restarts frequently, it's important to follow a step-by-step guide to diagnose and resolve the root cause effectively.
+In one of our high-traffic deployments, which sits at the intersection of web and AI use cases, we had a Redis cache pod shared between the web application and AI background workers. While this setup wasn’t ideal, it had worked well—until one day, we were paged: Redis was down‼️ When a Redis pod crashes or restarts frequently, it's important to follow a step-by-step guide to diagnose and resolve the root cause effectively.
 
 ---
 
@@ -157,7 +157,7 @@ spec:
 
 ## Conclusion
 
-Diagnosing Redis pod crashes requires a methodical approach that covers pod status, logs, resource limits, Redis internal diagnostics, node health, persistent storage, and deployment configurations. This helped me identify and resolve the root cause of Redis crashes in our org and ensuring a more stable cache layer. Key takeaways include:
+Diagnosing Redis pod crashes requires a methodical approach that covers pod status, logs, resource limits, Redis internal diagnostics, node health, persistent storage, and deployment configurations. Through this investigation, I identified key issues, including missing eviction policies in our cluster setup, which led to linearly increasing key counts and memory exhaustion, ultimately causing crashes. This experience also highlighted the importance of understanding usage patterns and configurations. Key takeaways include:
 - Monitor resource limits: Ensure Redis has sufficient memory and CPU resources.
 - Configure eviction policies: Set a suitable eviction policy to prevent crashes due to memory exhaustion.
 - Check node and cluster health: Identify potential issues outside of Redis.
