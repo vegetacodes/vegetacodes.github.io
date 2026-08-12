@@ -18,11 +18,11 @@ tools can use this information to navigate and reason about a codebase.
 
 ### Series
 
-1. **ASTs: How Programming Languages Understand Your Code**
-2. **From AST to Machine Code: Understanding the Compiler Workflow**
+1. **ASTs: How Programming Languages Understand Your Code** ← ⏳ *Coming soon*
+2. **From AST to Machine Code: Understanding the Compiler Workflow** ← 🚧 *In progress*
 3. **Language Server Protocol (LSP): How Your Editor Understands Your Code**
 4. **LSP + ASTs + Compilers: The Semantic Foundation of Modern Code Intelligence**
-5. **GitHub Copilot CLI: Setting Up LSP for Multi-Language Codebases** ← 📍*You are here*
+5. **GitHub Copilot + LSP: Smarter Code Context and Better Token Efficiency** ← 📍*You are here*
 
 > **Coming from another post?** If you're new to LSP or want to understand
 > what's happening under the hood, start with the AST and compiler posts
