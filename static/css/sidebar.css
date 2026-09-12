@@ -33,6 +33,11 @@
     padding-right: 3rem;
   }
 
+  /* Only the site title is shown in the mobile header; hide the description */
+  .sidebar-about .lead {
+    display: none;
+  }
+
   .sidebar-toggle {
     display: flex;
     flex-direction: column;
@@ -57,5 +62,9 @@
 
   .sidebar-checkbox:checked ~ .sidebar .sidebar-menu {
     display: block;
+  }
+
+  .sidebar-social-inline {
+    justify-content: center;
   }
 }

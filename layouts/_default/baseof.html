@@ -5,6 +5,10 @@
     {{ block "main" . -}}{{- end }}
     </main>
 
+    <footer class="site-footer container">
+      <p>{{ .Site.Params.copyright | safeHTML }}</p>
+    </footer>
+
     {{ if not hugo.IsServer }}
       {{ template "_internal/google_analytics.html" . }}
     {{ end }}
