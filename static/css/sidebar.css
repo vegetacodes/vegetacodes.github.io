@@ -1,0 +1,61 @@
+.sidebar-social-inline {
+  padding-left: 0;
+  margin-bottom: 1.5rem;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Adjusts the horizontal spacing between icons */
+}
+.sidebar-social-inline a {
+  color: rgba(255,255,255,.5);
+  font-size: 1.4rem; /* Makes font icons easily clickable */
+  transition: color 0.2s ease;
+}
+.sidebar-social-inline a:hover {
+  color: #fff;
+}
+
+/* Hamburger menu for mobile */
+.sidebar-checkbox {
+  display: none;
+}
+
+.sidebar-toggle {
+  display: none;
+}
+
+@media (max-width: 47.99em) {
+  .sidebar {
+    position: relative;
+  }
+
+  .sidebar-about {
+    padding-right: 3rem;
+  }
+
+  .sidebar-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    width: 1.75rem;
+    height: 1.1rem;
+    cursor: pointer;
+  }
+  .sidebar-toggle span {
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 1px;
+  }
+
+  .sidebar-menu {
+    display: none;
+  }
+
+  .sidebar-checkbox:checked ~ .sidebar .sidebar-menu {
+    display: block;
+  }
+}
