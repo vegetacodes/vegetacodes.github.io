@@ -28,7 +28,7 @@ priority = 0.5
 
 [params]
 author = ""
-copyright = "Made with ❤️ in Boston using Hugo & Hyde theme."
+copyright = "Made with ❤️ in Boston using <a href='https://gohugo.io/'>Hugo</a> & <a href='https://github.com/spf13/hyde'>Hyde</a> theme."
 description = "Software Engineer, ML, Rowing"
 favicon = ""
 site_logo = ""
