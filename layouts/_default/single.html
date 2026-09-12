@@ -6,8 +6,6 @@
     }}</time>
   {{ end }}
 
-  {{ .Content }}
-
   {{ with .Params.tags }}
   <div class="post-tags">
     {{ range . }}
@@ -15,6 +13,8 @@
     {{ end }}
   </div>
   {{ end }}
+
+  {{ .Content }}
 </div>
 
 {{ if .Site.Config.Services.Disqus.Shortname -}}
