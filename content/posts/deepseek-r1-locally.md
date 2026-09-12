@@ -2,6 +2,7 @@
 title: "Running DeepSeek-R1 Locally with Ollama"
 date: 2025-02-10T11:15:02-04:00
 draft: false
+tags: ["AI", "Ollama", "DeepSeek", "Machine Learning"]
 ---
 
 ## Introduction

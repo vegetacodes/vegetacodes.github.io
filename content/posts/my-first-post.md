@@ -2,6 +2,7 @@
 title: "My First Post"
 date: 2023-05-13T16:14:59-04:00
 draft: true
+tags: ["Musings"]
 ---
 ## Introduction
 

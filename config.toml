@@ -18,6 +18,7 @@ main = [
   {Name = "<img src='/icons/linkedin.svg' width='24' alt='LinkedIn'/>", URL = "https://www.linkedin.com/in/udaybhaskark/"},
   {Name = "<img src='/icons/stackoverflow.svg' width='24' alt='StackOverflow'/>", URL = "https://stackoverflow.com/users/981616/uday"},
   {Name = "About", URL = "/about"},
+  {Name = "Tags", URL = "/tags"},
 ]
 
 [sitemap]

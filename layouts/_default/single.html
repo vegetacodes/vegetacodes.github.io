@@ -7,6 +7,14 @@
   {{ end }}
 
   {{ .Content }}
+
+  {{ with .Params.tags }}
+  <div class="post-tags">
+    {{ range . }}
+    <a class="tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
+    {{ end }}
+  </div>
+  {{ end }}
 </div>
 
 {{ if .Site.Config.Services.Disqus.Shortname -}}

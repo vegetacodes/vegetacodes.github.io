@@ -2,6 +2,7 @@
 title: "Simplifying Globalization: The Power of Standalone Localization Repositories"
 date: 2021-02-21T16:14:59-04:00
 draft: false
+tags: ["Localization", "Rails", "Best Practices"]
 ---
 In today's globalized world, catering to a diverse audience is essential for businesses. To effectively serve localized content to users across the globe, it's crucial to streamline the localization process. This blog post explores a practical solution by pulling out localization files from your project and placing them in a standalone repository. We'll focus on using Rails project conventions for simplicity reasons.
 

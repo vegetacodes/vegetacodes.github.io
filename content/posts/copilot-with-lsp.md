@@ -2,6 +2,7 @@
 title: "GitHub Copilot + LSP: Smarter Code Context and Better Token Efficiency"
 date: 2026-08-09T11:15:02-04:00
 draft: false
+tags: ["AI", "GitHub Copilot", "LSP", "Developer Tools"]
 ---
 
 This guide walks through configuring Language Server Protocol (LSP) support for **Go, Python, Ruby, TypeScript, and JavaScript** in GitHub Copilot CLI. It also includes practices for keeping AI coding sessions efficient and token-conscious.

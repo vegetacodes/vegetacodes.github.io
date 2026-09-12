@@ -2,6 +2,7 @@
 title: "Effortlessly Manage Multiple Git Accounts"
 date: 2020-05-13T16:14:59-04:00
 draft: false
+tags: ["Git", "Developer Tools"]
 ---
 
 ## Introduction

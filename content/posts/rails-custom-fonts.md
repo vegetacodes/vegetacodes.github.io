@@ -2,6 +2,7 @@
 title: "Elevate Your Rails 6 Application with Custom Fonts Using Webpacker"
 date: 2020-12-16T16:14:59-04:00
 draft: false
+tags: ["Rails", "Webpacker", "Frontend"]
 ---
 
 Adding custom fonts to your application can greatly enhance its visual appeal and make a bold statement. In this article, we will explore how to seamlessly import custom fonts into your Rails 6 Application with Webpacker. By the end of this tutorial, you'll be able to effortlessly integrate custom fonts and give your application a unique touch.
