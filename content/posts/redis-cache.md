@@ -1,5 +1,5 @@
 ---
-title: 'From Crash to Calm: How to Debug and Resolve Redis Pod Issues'
+title: 'Debugging Memory Exhaustion in a Kubernetes Redis Cluster'
 date: 2025-04-25T06:38:35-0400
 draft: false
 ---
