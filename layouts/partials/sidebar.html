@@ -1,0 +1,58 @@
+<aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
+      <p class="lead">
+        {{ with .Site.Params.description }}{{ . }}{{ else }}Registered Software Engineer{{ end }}
+      </p>
+    </div>
+
+    <nav>
+      <!-- Row for Social Icons -->
+      <ul class="sidebar-social-inline">
+        {{ range .Site.Menus.main }}
+          <!-- If the name contains HTML/Icon markup, render it horizontally -->
+          {{ if findRE "<(i|img)" .Name }}
+          <li>
+            <a href="{{ .URL }}">{{ .Name | safeHTML }}</a>
+          </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+
+      <!-- Traditional list for normal pages like About -->
+      <ul class="sidebar-nav">
+        {{ range .Site.Menus.main }}
+          <!-- If it's a standard text link, render it normally -->
+          {{ if not (findRE "<(i|img)" .Name) }}
+          <li>
+            <a href="{{ .URL }}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </nav>
+
+    <p>{{ .Site.Params.copyright | safeHTML }}</p>
+  </div>
+</aside>
+
+<!-- Inline styling block to force the horizontal layout without breaking core theme CSS -->
+<style>
+  .sidebar-social-inline {
+    padding-left: 0;
+    margin-bottom: 1.5rem;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Adjusts the horizontal spacing between icons */
+  }
+  .sidebar-social-inline a {
+    color: rgba(255,255,255,.5);
+    font-size: 1.4rem; /* Makes font icons easily clickable */
+    transition: color 0.2s ease;
+  }
+  .sidebar-social-inline a:hover {
+    color: #fff;
+  }
+</style>

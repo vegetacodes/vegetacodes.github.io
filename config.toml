@@ -13,9 +13,9 @@ disqusShortname = "uday-1"
 
 [Menus]
   main = [
-      {Name = "Github", URL = "https://github.com/udaykadaboina"},
-      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/udaybhaskark/"},
-      {Name = "StackOverflow", URL = "https://stackoverflow.com/users/981616/uday"},
+      {Name = "<img src='/icons/github.svg' width='24' alt='GitHub'/>", URL = "https://github.com/udaykadaboina"},
+      {Name = "<img src='/icons/linkedin.svg' width='24' alt='LinkedIn'/>", URL = "https://www.linkedin.com/in/udaybhaskark/"},
+      {Name = "<img src='/icons/stackoverflow.svg' width='24' alt='StackOverflow'/>", URL = "https://stackoverflow.com/users/981616/uday"},
       {Name = "About", URL = "/about"}
   ]
 

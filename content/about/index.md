@@ -1,9 +1,10 @@
 ---
 title: "About Me"
-date: 2026-01-01T16:14:59-04:00
+date: 2019-01-01T16:14:59-04:00
 draft: false
 showthedate: false
 showthedisqus: false
+weight: 1000
 ---
 
 I’m a software engineer and technical leader with 12+ years of experience building scalable systems across **AI, distributed systems, cloud platforms, and e-commerce**. I enjoy taking complex problems and turning them into simple, reliable software.
