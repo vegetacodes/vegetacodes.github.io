@@ -8,18 +8,6 @@
     </div>
 
     <nav>
-      <!-- Row for Social Icons -->
-      <ul class="sidebar-social-inline">
-        {{ range .Site.Menus.main }}
-          <!-- If the name contains HTML/Icon markup, render it horizontally -->
-          {{ if findRE "<(i|img)" .Name }}
-          <li>
-            <a href="{{ .URL }}">{{ .Name | safeHTML }}</a>
-          </li>
-          {{ end }}
-        {{ end }}
-      </ul>
-
       <!-- Traditional list for normal pages like About -->
       <ul class="sidebar-nav">
         {{ range .Site.Menus.main }}
@@ -27,6 +15,18 @@
           {{ if not (findRE "<(i|img)" .Name) }}
           <li>
             <a href="{{ .URL }}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+
+      <!-- Row for Social Icons -->
+      <ul class="sidebar-social-inline">
+        {{ range .Site.Menus.main }}
+          <!-- If the name contains HTML/Icon markup, render it horizontally -->
+          {{ if findRE "<(i|img)" .Name }}
+          <li>
+            <a href="{{ .URL }}">{{ .Name | safeHTML }}</a>
           </li>
           {{ end }}
         {{ end }}

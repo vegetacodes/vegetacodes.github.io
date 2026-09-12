@@ -9,7 +9,7 @@
   {{ .Content }}
 </div>
 
-{{ if .Site.DisqusShortname -}}
+{{ if .Site.Config.Services.Disqus.Shortname -}}
 {{ if .Params.showthedisqus | default "true" }}
 <h2>Comments</h2>
 {{ template "_internal/disqus.html" . }}

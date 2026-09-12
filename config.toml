@@ -1,36 +1,37 @@
 baseURL = 'https://vegetacodes.github.io/'
 languageCode = 'en-us'
-title = 'Uday K'
 theme = 'hyde'
+title = 'Uday K'
 
 DefaultContentLanguage = "en"
-SectionPagesMenu = "main"
 Paginate = 10
-googleAnalytics = "G-DLYZJ9VDDD"
+SectionPagesMenu = "main"
 enableRobotsTXT = true
+googleAnalytics = "G-DLYZJ9VDDD"
 
-disqusShortname = "uday-1"
+[services.disqus]
+shortname = "uday-1"
 
 [Menus]
-  main = [
-      {Name = "<img src='/icons/github.svg' width='24' alt='GitHub'/>", URL = "https://github.com/udaykadaboina"},
-      {Name = "<img src='/icons/linkedin.svg' width='24' alt='LinkedIn'/>", URL = "https://www.linkedin.com/in/udaybhaskark/"},
-      {Name = "<img src='/icons/stackoverflow.svg' width='24' alt='StackOverflow'/>", URL = "https://stackoverflow.com/users/981616/uday"},
-      {Name = "About", URL = "/about"}
-  ]
+main = [
+  {Name = "<img src='/icons/github.svg' width='24' alt='GitHub'/>", URL = "https://github.com/udaykadaboina"},
+  {Name = "<img src='/icons/linkedin.svg' width='24' alt='LinkedIn'/>", URL = "https://www.linkedin.com/in/udaybhaskark/"},
+  {Name = "<img src='/icons/stackoverflow.svg' width='24' alt='StackOverflow'/>", URL = "https://stackoverflow.com/users/981616/uday"},
+  {Name = "About", URL = "/about"},
+]
 
 [sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.5
 
 [params]
-  text_color = ""
-  author = ""
-  favicon = ""
-  site_logo = ""
-  description = "Software Engineer, ML, Rowing"
-  copyright = "Made with ❤️ in Boston using Hugo & Hyde theme."
-  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-black"
-  recent_posts_number = 3
+author = ""
+copyright = "Made with ❤️ in Boston using Hugo & Hyde theme."
+description = "Software Engineer, ML, Rowing"
+favicon = ""
+site_logo = ""
+text_color = ""
+# choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+background_color_class = "bg-black"
+recent_posts_number = 3
