@@ -99,6 +99,13 @@ a.sidebar-nav-item:focus {
   font-weight: bold;
 }
 
+/* Copyright note, shown at the bottom of the sidebar */
+.sidebar-copyright {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-size: .75rem;
+}
+
 /* Sticky sidebar
  *
  * Add the `sidebar-sticky` class to the sidebar's container to affix it the
@@ -141,33 +148,7 @@ a.sidebar-nav-item:focus {
   }
 }
 
-/* Site footer
- *
- * Copyright notice shown below the main content, styled to match the sidebar.
- */
-
-.site-footer {
-  padding: 1rem;
-  text-align: center;
-  font-size: .75rem;
-  color: rgba(255,255,255,.5);
-  background-color: #202020;
-}
-
-.site-footer a {
-  color: #fff;
-}
-
-@media (min-width: 48em) {
-  .site-footer {
-    margin-left: 18rem;
-    text-align: left;
-  }
-}
-
-
-/*
- * Reverse layout
+/* Reverse layout
  *
  * Flip the orientation of the page by placing the `.sidebar` on the right.
  */

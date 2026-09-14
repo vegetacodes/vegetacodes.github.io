@@ -41,6 +41,10 @@
         {{ end }}
       </ul>
     </nav>
+
+    {{ with .Site.Params.copyright }}
+    <p class="sidebar-copyright">{{ . | safeHTML }}</p>
+    {{ end }}
   </div>
 </aside>
 
