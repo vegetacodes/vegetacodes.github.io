@@ -22,7 +22,7 @@ response = client.chat(
 )
 ```
 
-That idea became [fast-deepseek on RubyGems](https://rubygems.org/gems/fast-deepseek) and [fast-deepseek on GitHub](https://github.com/your-handle/fast-deepseek) — a lightweight Ruby client for the DeepSeek API.
+That idea became [fast-deepseek on RubyGems](https://rubygems.org/gems/fast-deepseek) and [fast-deepseek on GitHub](https://github.com/udaykadaboina/fast-deepseek) — a lightweight Ruby client for the DeepSeek API.
 
 ## Why another client?
 
