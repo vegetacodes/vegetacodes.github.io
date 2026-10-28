@@ -1,16 +1,18 @@
 ---
 title: "About Me"
-date: 2019-01-01T16:14:59-04:00
+date: 2026-10-01T16:14:59-04:00
 draft: false
 showthedate: false
 showthedisqus: false
 weight: 1000
 ---
 
-I’m a software engineer and technical leader with 12+ years of experience building scalable systems across **AI, distributed systems, cloud platforms, and e-commerce**. I enjoy taking complex problems and turning them into simple, reliable software.
+I’m a software engineer and technical leader with 12+ years of experience designing and building scalable systems across **AI, distributed systems, cloud platforms, and e-commerce**. I enjoy tackling complex technical challenges, shaping pragmatic architectures, and turning ideas into simple, reliable software.
 
-Today, I work on AI-driven energy platforms at Uplight (Schneider Electric), focusing on distributed systems, real-time optimization, and AI-powered developer tooling. Previously, at MathWorks, I helped build and evolve several customer-facing platforms, including [Training e-commerce](https://www.mathworks.com/learn/training/classroom-courses.html?q=&page=1), [Bug Reports](https://www.mathworks.com/support/bugreports/?s_tid=hc_resources), and [Careers](https://www.mathworks.com/company/jobs/opportunities.html?s_tid=hp_ff_a_careers), as well as the [MATLAB Central File Exchange](https://www.mathworks.com/matlabcentral/fileexchange).
+Currently, I work on AI-driven energy platforms at Uplight, a clean energy technology company backed by [Octopus Energy](https://octopusenergy.com/) and Schneider Electric. My work focuses on building and optimizing virtual power plants (VPPs), distributed systems, real-time optimization, and AI-powered developer tools.
 
-I’m also interested in exploring AI and developer tools through my own projects. I’m the creator of [Fast-DeepSeek](https://rubygems.org/gems/fast-deepseek/), an open-source Ruby library for DeepSeek LLM, and I write about the things I build and learn here.
+Previously, at MathWorks, I helped build and evolve several customer-facing platforms, including training e-commerce, bug reporting, careers, the [MATLAB Central File Exchange](https://www.mathworks.com/matlabcentral/fileexchange), and the MATLAB Add-On Marketplace within MATLAB. I re-architected the training e-commerce platform around a service-oriented architecture, improved course discovery with Apache Solr search, and introduced RabbitMQ-based event-driven updates for real-time seat availability. I also streamlined internationalization and localization workflows across production web applications, reducing file duplication and enabling faster release cycles.
 
-When I’m not working, you’ll usually find me playing pickleball, or rowing or kayaking around the [Charles River](https://en.wikipedia.org/wiki/Charles_River).
+Outside of work, I build projects that explore AI and developer tooling. I’m the creator of [Fast-DeepSeek](https://rubygems.org/gems/fast-deepseek/), an open-source Ruby library for interacting with DeepSeek LLMs, and I write about what I build, the technical decisions behind it, and what I learn along the way.
+
+When I’m not coding, you’ll usually find me playing pickleball or rowing and kayaking along the [Charles River](https://en.wikipedia.org/wiki/Charles_River).
